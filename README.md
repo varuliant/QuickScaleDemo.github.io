@@ -86,16 +86,16 @@ Tools for obtained a daily F-Layer critical frequency values determined by a Fre
     <div class="container">
         <h2>Quick scale foF2 from FTI image</h2>
 
-        <p>The Quickscale foF2 tool was developed by Varuliantor Dear from the Space Research Center BRIN in January 2025.</p>
+        <p>The Quickscale foF2 tool was developed by Varuliantor Dear from the Space Research Center, BRIN Indonesia in January 2025.</p>
 
         <div class="instructions">
             <p>To use this tool, the steps are follows:</p>
             	<p>(i) Upload a FTI image, </p>
-            	<p>(ii) Select the X and Y axis points in the image, </p>
-            	<p>(iii) Select the "Image Cal" buttin, and type the range of real value, </p>
+            	<p>(ii) Press the "Left/Right-X", "Left/Right-Y" button, and select the X and Y axis points in the image, </p>
+            	<p>(iii) Select the "Image Cal" button, and type the range of real value, </p>
             	<p>(iv) Make a foF2 trace by selecting the "foF2 Plot", and </p>
             	<p>(v) Download the result as CSV file format</p>
-            <p>The calibration process is performed only <b> once if the selected Image has the same dimensions </b> as the previous one. The plot result will be deleted when selecting a new Image. After the plot trace is complete, please press the "Download CSV" button to get a file containing the foF2 parameter values ​​consisting of 4 columns, namely: <b> Parameter, Segment, Decimal Clock, and Frequency </b> in MHz units.</p>
+            <p>The calibration process is performed only <b> once if the selected Image has the same dimensions </b> as the previous one. The plot trace result will be deleted when selecting a new Image. After the plot trace is complete, please press the "Download CSV" button to get a file containing the foF2 parameter values ​​consisting of 4 columns, namely: <b> Parameter, Segment, Decimal Clock, and Frequency </b> in MHz units.</p>
 
         </div>
 
@@ -232,7 +232,7 @@ Tools for obtained a daily F-Layer critical frequency values determined by a Fre
         }
 
 function downloadCSV() {
-    let csvContent = "data:text/csv;charset=utf-8,Parameter,Segmen,JamDec,Nilai\n";
+    let csvContent = "data:text/csv;charset=utf-8,Parameter,Segment,Dec_Clock,Frequency\n";
     
     // Fungsi untuk mengkonversi titik ke nilai real
     function convertPoint(p) {
