@@ -5,7 +5,7 @@ Tools for obtained a daily F-Layer critical frequency values determined by a Fre
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>foF2 Quick Scale from FTI</title>
+    <title>A Software Cemonstration for F layer critical frequency using Quick Scale method from FTI plots</title>
     <style>
         body {
             font-family: Arial, sans-serif;
