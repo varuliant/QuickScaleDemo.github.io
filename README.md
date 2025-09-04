@@ -1,4 +1,4 @@
-# QuickScaleDemo.github.io
+# QuickScaleDemo
 Tools for obtained a daily F-Layer critical frequency values determined by a Frequency-Time Intensity (FTI) Plot
 <!DOCTYPE html>
 <html lang="en">
@@ -86,7 +86,7 @@ Tools for obtained a daily F-Layer critical frequency values determined by a Fre
     <div class="container">
         <h2>QuickScale Software Demo – F-Layer Critical Frequency from FTI Plots</h2>
 
-        <p>The Quickscale foF2 tool was developed by Varuliantor Dear from the Space Research Center, BRIN Indonesia in January 2025.</p>
+        <p>The Quickscale F-layer critical frequency tool was developed by Varuliantor Dear from the Space Research Center, BRIN Indonesia in January 2025.</p>
 
         <div class="instructions">
             <p>To use this tool, the steps are follows:</p>
